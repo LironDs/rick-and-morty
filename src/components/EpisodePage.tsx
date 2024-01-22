@@ -58,7 +58,6 @@ const EpisodePage: FunctionComponent<EpisodePageProps> = () => {
     };
 
     fetchEpisodeAndCharacters();
-    console.log(characterData);
   }, [id]);
 
   if (!episode) {

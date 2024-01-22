@@ -52,7 +52,6 @@ const CharacterPage: FunctionComponent<CharacterPageProps> = () => {
     };
 
     fetchCharacterData();
-    console.log(characterData);
   }, [id]);
   if (characterData === null) {
     return <div>Loading...</div>;
